@@ -1,0 +1,20 @@
+h1 {
+    font-size: 3em;
+
+}
+
+#profile_pic {
+    height: 350px;
+}
+
+.social-icon {
+    height: 50px
+}
+
+body {
+    background-color: #faceca;
+}
+
+a {
+    text-decoration: none;
+}
