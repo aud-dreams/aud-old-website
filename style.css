@@ -1,20 +1,62 @@
+.intro {
+    position: relative;
+    text-align: center;
+}
+
+#banner {
+    position: relative;
+    width: 101%;
+    height: 60%;
+    margin: -10 -10;
+}
+
 h1 {
+    position: absolute;
+    font-size: 5em;
+    color: white;
+    font-family: 'Optima';
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    position: relative;
+    color: white;
     font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    top: 15%;
+    left: 20%;
 
 }
-
-#profile_pic {
-    height: 350px;
+#pfp {
+    position: relative;
+    height: 25em;
+    top: 0%;
+    left: 65%
 }
 
-.social-icon {
-    height: 50px
+.info {
+    position: relative;
+    top: -45%;
+    left: 19%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#github {
+    position: relative;
+    left: 5%;
+    height: 48px;
+}
+
+#insta {
+    position: relative;
+    left: 7%;
+    height: 48px;
 }
 
 body {
     background-color: #faceca;
-}
-
-a {
-    text-decoration: none;
 }
