@@ -36,7 +36,7 @@ h2 {
     left: 65%
 }
 
-.info {
+.list {
     position: relative;
     top: -45%;
     left: 19%;
@@ -47,14 +47,23 @@ h2 {
 
 #github {
     position: relative;
-    left: 5%;
-    height: 48px;
+    bottom: 5em;
+    left: 41em;
+    height: 45px;
 }
 
 #insta {
     position: relative;
-    left: 7%;
-    height: 48px;
+    bottom: 5em;
+    left: 42em;
+    height: 45px;
+}
+
+#spotify {
+    position: relative;
+    bottom: 5em;
+    left: 43em;
+    height: 45px;
 }
 
 body {
