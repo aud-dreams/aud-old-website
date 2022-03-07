@@ -20,50 +20,46 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-h2 {
-    position: relative;
-    color: white;
-    font-size: 3em;
-    font-family: 'Times New Roman', Times, serif;
-    top: 15%;
-    left: 20%;
-
-}
-#pfp {
-    position: relative;
-    height: 25em;
-    top: 0%;
-    left: 65%
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    width: 900px;
+    margin: 0px auto;
 }
 
-.list {
-    position: relative;
-    top: -45%;
-    left: 19%;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+.container > #pfp {
+    height: 500px;
+}
+
+.container > #text {
     color: white;
+    font-family: 'Optima';
+    font-size: 18px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+    height: 100px;
+    width: 200px;
+    margin: 0px auto;
 }
 
 #github {
-    position: relative;
-    bottom: 5em;
-    left: 41em;
     height: 45px;
 }
 
 #linkedin {
-    position: relative;
-    bottom: 5em;
-    left: 42em;
-    height: 44px;
+    height: 45px;
 }
 
 #resume {
-    position: relative;
-    bottom: 4.5em;
-    left: 42.5em;
-    height: 60px;
+    height: 55px;
 }
 
 body {
