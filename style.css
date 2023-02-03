@@ -41,7 +41,7 @@ h1 {
 .container>#text {
     color: white;
     font-family: 'Optima';
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .links {
@@ -49,7 +49,7 @@ h1 {
     flex-direction: row;
     justify-content: space-around;
     align-items: top;
-    height: 120px;
+    height: 80px;
     width: 200px;
     margin: 0px auto;
 }
