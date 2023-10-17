@@ -1,3 +1,3 @@
-Visit my personal website!
+My previous website 2021-2023.
 
-https://aud-dreams.github.io/
+Built with HTML, CSS, deployed with Github pages.
